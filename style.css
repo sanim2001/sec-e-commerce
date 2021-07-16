@@ -13,6 +13,11 @@ body{
     font-size: large;
     font-weight: 500;
 }
+.navbar-light .navbar-nav .nav-link:hover{
+    color: tomato;
+    border-bottom: 1px solid tomato;
+    transition: .4s ease all;
+}
 .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
@@ -123,10 +128,18 @@ body{
     margin-top: 150px;
     cursor: pointer;
 }
+.overloop:hover{
+    background-color:tomato;
+    transition: 600ms ease all;
+}
 .loop-child{
     width: 250px;
     height: 250px;
     cursor: pointer;
+}
+.loop-child:hover{
+    background-color:tomato;
+    transition: 600ms ease all;
 }
 .overloop h1{
     text-align: center;
